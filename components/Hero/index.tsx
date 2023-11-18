@@ -30,15 +30,18 @@ const Hero = () => {
                   <a
                     href="/dist/NSGPOS Setup 0.2.2.exe"
                     className="rounded-sm bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
+                    target="_blank"
+                    download
                   >
                     🔥 Download Software
                   </a>
-                  <Link
+                  <a
                     href="https://github.com/NSG1112/nsgpos"
                     className="inline-block rounded-sm bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5"
+                    target="_blank"
                   >
                     Contribute on Github
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
